@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/hello', function () {
-    return view('hello');
-});
+// Route::get('/hello', function () {
+//     return view('hello');
+// });
 
 Route::get('/mahasiswa/{nama}', function ($nama) {
 return "Tampilkan data mahasiswa bernama $nama";
@@ -54,4 +54,18 @@ Route::get('/buku/{b}', function($b){
     return "Bukusayake-$b";
 })->where('b', '[A-Za-z]+'); // huruf saja
 
+Route::get('/', function () {
+    return view('coffeeshop.home');
+});
 
+Route::get('/menu', function () {
+    return view('coffeeshop.menu');
+});
+
+Route::get('/about', function () {
+    return view('coffeeshop.about');
+});
+
+Route::get('/contact', function () {
+    return view('coffeeshop.contact');
+});
