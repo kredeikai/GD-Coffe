@@ -2,14 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/hello', function () {
-//     return view('hello');
-// });
-
 Route::fallback(function () {
     return "Maaf, alamat tidak ditemukan";
 });
-
 
 Route::get('/', function () {
     return view('coffeeshop.home');
