@@ -23,6 +23,7 @@
         <a href="/menu">Menu</a> | 
         <a href="/about">Tentang Kami</a> | 
         <a href="/contact">Kontak</a>
+        <a href="/program">program</a>
     </nav>
 
     <div class="container">

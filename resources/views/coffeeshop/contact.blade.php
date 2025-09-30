@@ -22,7 +22,8 @@
         <a href="/">Home</a> | 
         <a href="/menu">Menu</a> | 
         <a href="/about">Tentang Kami</a> | 
-        <a href="/contact">Kontak</a>
+        <a href="/contact">Kontak</a> |
+        <a href="/program">Program</a>
     </nav>
 
     <div class="container">
