@@ -23,7 +23,7 @@
                 </svg>
             </div>
             <h3 class="text-xl font-semibold mb-2 text-amber-800">Alamat</h3>
-            <p class="text-gray-600">📍 Jl. Kopi No. 123, Bandung</p>
+            <p class="text-gray-600">📍 Jl. Al Munawaroh No.11, RT.2/RW.5, Ciganjur, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630</p>
         </div>
 
         <!-- Telepon -->
@@ -36,7 +36,7 @@
                 </svg>
             </div>
             <h3 class="text-xl font-semibold mb-2 text-amber-800">Telepon</h3>
-            <p class="text-gray-600">📞 0812-3456-7890</p>
+            <p class="text-gray-600">📞 0851-1767-4700</p>
         </div>
 
         <!-- Email -->
@@ -49,7 +49,7 @@
                 </svg>
             </div>
             <h3 class="text-xl font-semibold mb-2 text-amber-800">Email</h3>
-            <p class="text-gray-600">✉️ info@gdcoffee.com</p>
+            <p class="text-gray-600">✉️ GDcoffee@gmail.com</p>
         </div>
     </div>
 
