@@ -6,7 +6,7 @@
     <!-- Hero Section -->
     <div class="bg-gradient-to-r from-amber-800 to-amber-600 text-white text-center py-12 rounded-lg shadow-lg mb-10">
         <h2 class="text-4xl font-bold mb-2 tracking-wide">Tentang Kami</h2>
-        <p class="text-lg opacity-90">Menghadirkan kopi terbaik sejak 2020</p>
+        <p class="text-lg opacity-90">Menghadirkan kopi terbaik sejak 2025</p>
     </div>
 
     <!-- Sejarah Kami -->
@@ -22,9 +22,17 @@
                 Sejarah Kami
             </h2>
             <p class="text-gray-700 leading-relaxed text-lg">
-                GD Coffe berdiri pada awal tahun 2025 sebagai hasil kolaborasi antara BAZNAS dan Pondok Pesantren Luhur Ciganjur. Inisiatif ini lahir dari semangat untuk memberdayakan para santri dalam bidang UMKM, khususnya industri kopi, agar mereka dapat mandiri secara ekonomi tanpa meninggalkan nilai-nilai keilmuan dan spiritual pesantren.
-                Nama “GD” diambil dari inisial Gus Dur, sosok kharismatik dan pendiri Pondok Pesantren Luhur Ciganjur. Filosofi “GD” tidak sekadar sebuah nama, melainkan simbol dari kearifan, keterbukaan, dan kemanusiaan universal yang beliau ajarkan. Nilai-nilai itu menjadi fondasi utama bagi GD Coffe dalam setiap langkah dan cita-citanya — menyajikan kopi terbaik yang lahir dari tangan-tangan santri, dengan semangat berbagi dan keberkahan.
-                Kami percaya bahwa secangkir kopi bukan hanya tentang rasa, tetapi tentang perjalanan, pemberdayaan, dan keberkahan yang mengalir dari niat baik.
+                GD Coffe berdiri pada awal tahun 2025 sebagai hasil kolaborasi antara BAZNAS dan Pondok Pesantren Luhur
+                Ciganjur. Inisiatif ini lahir dari semangat untuk memberdayakan para santri dalam bidang UMKM, khususnya
+                industri kopi, agar mereka dapat mandiri secara ekonomi tanpa meninggalkan nilai-nilai keilmuan dan
+                spiritual pesantren.
+                Nama “GD” diambil dari inisial Gus Dur, sosok kharismatik dan pendiri Pondok Pesantren Luhur Ciganjur.
+                Filosofi “GD” tidak sekadar sebuah nama, melainkan simbol dari kearifan, keterbukaan, dan kemanusiaan
+                universal yang beliau ajarkan. Nilai-nilai itu menjadi fondasi utama bagi GD Coffe dalam setiap langkah dan
+                cita-citanya — menyajikan kopi terbaik yang lahir dari tangan-tangan santri, dengan semangat berbagi dan
+                keberkahan.
+                Kami percaya bahwa secangkir kopi bukan hanya tentang rasa, tetapi tentang perjalanan, pemberdayaan, dan
+                keberkahan yang mengalir dari niat baik.
             </p>
         </div>
         <!-- Ilustrasi -->
@@ -54,13 +62,15 @@
             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
                 <div class="flex items-center justify-center text-amber-800 text-4xl mb-3">🌍</div>
                 <p class="text-gray-700 text-center font-medium">
-                    Menjadi pelopor kopi pesantren yang berdaya saing tinggi dan berlandaskan nilai-nilai kemanusiaan, keberkahan, dan kemandirian ekonomi santri.
+                    Menjadi pelopor kopi pesantren yang berdaya saing tinggi dan berlandaskan nilai-nilai kemanusiaan,
+                    keberkahan, dan kemandirian ekonomi santri.
                 </p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
                 <div class="flex items-center justify-center text-amber-800 text-4xl mb-3">🤝</div>
                 <p class="text-gray-700 text-center font-medium">
-                    Menjalin kolaborasi dengan lembaga sosial, pemerintah, dan masyarakat untuk memperluas dampak ekonomi umat.
+                    Menjalin kolaborasi dengan lembaga sosial, pemerintah, dan masyarakat untuk memperluas dampak ekonomi
+                    umat.
                 </p>
             </div>
         </div>
