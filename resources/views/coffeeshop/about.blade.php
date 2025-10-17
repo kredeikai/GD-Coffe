@@ -29,7 +29,7 @@
         </div>
         <!-- Ilustrasi -->
         <div class="flex justify-center md:justify-end">
-            <img src="{{ asset('images/coffee-history.jpg') }}" alt="Sejarah GD Coffee"
+            <img src="{{ asset('images/image.png') }}" alt="Sejarah GD Coffee"
                 class="rounded-lg shadow-lg w-full md:w-4/5 object-cover">
         </div>
     </div>
