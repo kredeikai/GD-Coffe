@@ -1,4 +1,4 @@
-# 🧠 GD COFFE
+# ☕ GD COFFE
 
 ---
 
