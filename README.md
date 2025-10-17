@@ -12,7 +12,7 @@
 | Nama Lengkap | NIM | Tugas |
 |---------------|-----|--------|
 | Ibrah  | 2310120018 | Business & Konsep Utama |
+| Lutfi  | 2310120011 | Desainer Konten & Media |
 | Rifo   | 2310120025 | Developer / Frontend |
-| Lutfi  | 2310120024 | Desainer Konten & Media |
 
 ---
