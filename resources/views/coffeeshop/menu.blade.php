@@ -1,42 +1,53 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>GD Coffee - Menu</title>
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #f7f3ef; color: #333; margin: 0; padding: 0; }
-        header { background-color: #6f4e37; color: #fff; padding: 20px; text-align: center; }
-        nav { margin: 15px 0; text-align: center; }
-        nav a { text-decoration: none; color: #6f4e37; margin: 0 15px; font-weight: bold; }
-        nav a:hover { color: #a0522d; }
-        h1 { color: #6f4e37; }
-        .container { max-width: 800px; margin: auto; padding: 20px; }
-        footer { margin-top: 30px; background: #6f4e37; color: white; text-align: center; padding: 10px; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Menu GD Coffee</h1>
-    </header>
+@extends('layouts.layout')
 
-    <nav>
-        <a href="/">Home</a> | 
-        <a href="/menu">Menu</a> | 
-        <a href="/about">Tentang Kami</a> | 
-        <a href="/contact">Kontak</a> |
-        <a href="/program">Program</a>
-    </nav>
+@section('title', 'Menu')
 
-    <div class="container">
-        <ul>
-            <li>Espresso - Rp 20.000</li>
-            <li>Cappuccino - Rp 25.000</li>
-            <li>Latte - Rp 28.000</li>
-            <li>Americano - Rp 22.000</li>
-        </ul>
+@section('content')
+    <div class="bg-gradient-to-r from-amber-800 to-amber-600 text-white text-center py-12 rounded-lg shadow-lg mb-10">
+        <h2 class="text-4xl font-bold mb-2 tracking-wide">Menu Kami</h2>
     </div>
 
-    <footer>
-        <p>&copy; 2025 GD Coffee. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Menu Item 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transform transition duration-300">
+            <img src="{{ asset('images/espresso.jpeg') }}" alt="Espresso" class="w-full h-48 object-cover">
+            <div class="p-4 text-center">
+                <h3 class="text-xl font-semibold text-amber-800 mb-2">Espresso</h3>
+                <p class="text-gray-600 mb-3 text-sm">Kopi pekat dengan rasa kuat untuk memulai hari Anda.</p>
+                <span class="text-lg font-bold text-amber-700 block">Rp 20.000</span>
+            </div>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transform transition duration-300">
+            <img src="{{ asset('images/cappucino.jpg') }}" alt="Cappuccino" class="w-full h-48 object-cover">
+            <div class="p-4 text-center">
+                <h3 class="text-xl font-semibold text-amber-800 mb-2">Cappuccino</h3>
+                <p class="text-gray-600 mb-3 text-sm">Perpaduan sempurna espresso, susu, dan foam lembut.</p>
+                <span class="text-lg font-bold text-amber-700 block">Rp 25.000</span>
+            </div>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transform transition duration-300">
+            <img src="{{ asset('images/latte.jpeg') }}" alt="Latte" class="w-full h-48 object-cover">
+            <div class="p-4 text-center">
+                <h3 class="text-xl font-semibold text-amber-800 mb-2">Latte</h3>
+                <p class="text-gray-600 mb-3 text-sm">Kopi lembut dengan sentuhan creamy yang menenangkan.</p>
+                <span class="text-lg font-bold text-amber-700 block">Rp 28.000</span>
+            </div>
+        </div>
+
+        <!-- Menu Item 4 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transform transition duration-300">
+            <img src="{{ asset('images/americano.png') }}" alt="Americano" class="w-full h-48 object-cover">
+            <div class="p-4 text-center">
+                <h3 class="text-xl font-semibold text-amber-800 mb-2">Americano</h3>
+                <p class="text-gray-600 mb-3 text-sm">Kopi hitam klasik dengan rasa ringan dan menyegarkan.</p>
+                <span class="text-lg font-bold text-amber-700 block">Rp 22.000</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br>
+@endsection

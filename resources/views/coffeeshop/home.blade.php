@@ -1,70 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>GD Coffee - Home</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f3ef;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #6f4e37;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            margin: 15px 0;
-            text-align: center;
-        }
-        nav a {
-            text-decoration: none;
-            color: #6f4e37;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            color: #a0522d;
-        }
-        h1 { color: #6f4e37; }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        footer {
-            margin-top: 30px;
-            background: #6f4e37;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>GD Coffee</h1>
-        <p>Nikmati kopi terbaik untuk hari Anda ☕</p>
-    </header>
+@extends('layouts.layout')
 
-    <nav>
-        <a href="/">Home</a> | 
-        <a href="/menu">Menu</a> | 
-        <a href="/about">Tentang Kami</a> | 
-        <a href="/contact">Kontak</a> |
-        <a href="/program">Program</a>
-    </nav>
+@section('title', 'Home')
 
-    <div class="container">
-        <h2>Selamat Datang</h2>
-        <p>Kopi kami dibuat dari biji pilihan dengan cita rasa yang khas.</p>
+@section('content')
+
+    <div class="bg-gradient-to-r from-amber-800 to-amber-600 text-white text-center py-12 rounded-lg shadow-lg mb-10">
+        <h2 class="text-4xl font-bold mb-2 tracking-wide">Selamat Datang di GD Coffee</h2>
+        <p class="text-lg opacity-90">Kopi pilihan, suasana nyaman, dan momen terbaik bersama teman</p>
     </div>
 
-    <footer>
-        <p>&copy; 2025 GD Coffee. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
+    <div class="text-center mb-10">
+        <a href="/menu" class="bg-amber-700 text-white px-6 py-2 rounded hover:bg-amber-600 transition">
+            Lihat Menu
+        </a>
+    </div>
+
+    <h2 class="text-2xl font-semibold text-center text-amber-800 mb-6">Rekomendasi Kami</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white shadow rounded-lg overflow-hidden">
+            <img src="{{ asset('images/espresso.jpeg') }}" alt="Espresso" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Espresso</h3>
+                <p class="text-gray-600">Kopi pekat dengan rasa kuat untuk memulai hari Anda.</p>
+            </div>
+        </div>
+        <div class="bg-white shadow rounded-lg overflow-hidden">
+            <img src="{{ asset('images/cappucino.jpg') }}" alt="Cappuccino" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Cappuccino</h3>
+                <p class="text-gray-600">Perpaduan sempurna espresso, susu, dan foam lembut.</p>
+            </div>
+        </div>
+        <div class="bg-white shadow rounded-lg overflow-hidden">
+            <img src="{{ asset('images/latte.jpeg') }}" alt="Latte" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Latte</h3>
+                <p class="text-gray-600">Kopi lembut dengan sentuhan creamy yang menenangkan.</p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+@endsection
