@@ -54,7 +54,7 @@ dengan semangat **berbagi dan membawa keberkahan**.
 
 ## 📸 Dokumentasi
 > *“Kopi bukan sekadar minuman — ia adalah cerita tentang perjuangan, keberkahan, dan harapan.”*  
-<img width="1200" height="801" alt="image" src="https://github.com/user-attachments/assets/875b8950-d919-4431-bc17-3cf14c987a06" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/875b8950-d919-4431-bc17-3cf14c987a06" />
 
 ---
 
