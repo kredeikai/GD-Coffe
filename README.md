@@ -1,11 +1,7 @@
 # 🧠 GD COFFE
 
-**NAMA TEAM:** GD COFFE
-
----
-**NAMA PROJECT:** GD COFFE WEBSITE
-
----
+**NAMA TEAM:** GD COFFE <br>
+**NAMA PROJECT:** GD COFFE WEBSITE <br>
 **JENIS BISNIS:** F&B
 
 ---
