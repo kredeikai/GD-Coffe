@@ -9,6 +9,15 @@
         <p class="text-lg opacity-90">Kami siap melayani pertanyaan dan masukan Anda</p>
     </div>
 
+    <!-- Pesan Sukses -->
+    @if(session('success'))
+        <div class="max-w-3xl mx-auto mb-6">
+            <div class="bg-green-100 text-green-800 px-4 py-3 rounded-lg shadow">
+                {{ session('success') }}
+            </div>
+        </div>
+    @endif
+
     <!-- Kontak Info -->
     <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
         <!-- Alamat -->
@@ -53,19 +62,26 @@
         </div>
     </div>
 
-    <!-- Form Kontak (Opsional) -->
+    <!-- Form Kontak -->
     <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-8 text-center mb-16">
         <h3 class="text-2xl font-semibold text-amber-800 mb-6">Kirim Pesan</h3>
-        <form action="#" method="POST" class="space-y-4">
+
+        <form action="{{ route('contact.store') }}" method="POST" class="space-y-4">
+            @csrf
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <input type="text" placeholder="Nama"
+                <input type="text" name="name" placeholder="Nama" required
                     class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-600">
-                <input type="email" placeholder="Email"
+
+                <input type="email" name="email" placeholder="Email" required
                     class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-600">
             </div>
-            <textarea placeholder="Tulis pesan Anda..." rows="4"
+
+            <textarea name="message" placeholder="Tulis pesan Anda..." rows="4" required
                 class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-600"></textarea>
-            <button type="submit" class="bg-amber-700 text-white px-6 py-2 rounded-lg hover:bg-amber-800 transition">
+
+            <button type="submit"
+                class="bg-amber-700 text-white px-6 py-2 rounded-lg hover:bg-amber-800 transition">
                 Kirim Pesan
             </button>
         </form>
