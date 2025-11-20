@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 Route::fallback(function () {
     return "Maaf, alamat tidak ditemukan";
@@ -26,6 +27,7 @@ Route::get('/program', function () {
     return view('coffeeshop.program');
 });
 
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 
 
