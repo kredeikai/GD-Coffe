@@ -4,7 +4,6 @@
 
 @section('content')
 
-```
 <div class="bg-gradient-to-r from-amber-800 to-amber-600 text-white text-center py-12 rounded-lg shadow-lg mb-10">
     <h2 class="text-4xl font-bold mb-2 tracking-wide">Program Spesial GD Coffee</h2>
     <p class="text-lg opacity-90">Kopi pilihan, suasana santai, dan kegiatan seru bareng komunitas GD.</p>
