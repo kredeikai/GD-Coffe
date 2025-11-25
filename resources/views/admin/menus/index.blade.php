@@ -7,7 +7,7 @@
 
     <div class="flex justify-between items-center mb-6">
         <h2 class="text-2xl font-semibold text-amber-800">Daftar Menu</h2>
-        <a href="{{ route('admin.menus.create') }}" class="px-4 py-2 bg-amber-700 text-white rounded">
+        <a href="{{ route('menus.create') }}" class="px-4 py-2 bg-amber-700 text-white rounded">
             Tambah Menu
         </a>
     </div>
@@ -38,9 +38,9 @@
                     </span>
 
                     <div class="flex gap-2">
-                        <a href="{{ route('admin.menus.edit', $menu->id) }}" class="text-blue-600">Edit</a>
+                        <a href="{{ route('menus.edit', $menu->id) }}" class="text-blue-600">Edit</a>
 
-                        <form action="{{ route('admin.menus.destroy', $menu->id) }}"
+                        <form action="{{ route('menus.destroy', $menu->id) }}"
                               method="POST"
                               onsubmit="return confirm('Hapus menu ini?');">
 

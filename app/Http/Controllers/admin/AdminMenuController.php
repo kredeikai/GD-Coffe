@@ -41,7 +41,7 @@ class AdminMenuController extends Controller
         Menu::create($data);
 
         return redirect()
-            ->route('admin.menus.index')
+            ->route('menus.index')
             ->with('success', 'Menu berhasil ditambahkan.');
     }
 
@@ -88,7 +88,7 @@ class AdminMenuController extends Controller
         ]);
 
         return redirect()
-            ->route('admin.menus.index')
+            ->route('menus.index')
             ->with('success', 'Menu berhasil diperbarui.');
     }
 
@@ -104,7 +104,7 @@ class AdminMenuController extends Controller
         $menu->delete();
 
         return redirect()
-            ->route('admin.menus.index')
+            ->route('menus.index')
             ->with('success', 'Menu berhasil dihapus.');
     }
 }

@@ -6,7 +6,7 @@
 <div class="max-w-3xl mx-auto bg-white p-6 rounded shadow">
     <h2 class="text-xl font-semibold text-amber-800 mb-4">Edit Menu</h2>
 
-    <form action="{{ route('admin.menus.update', $menu->id) }}" 
+    <form action="{{ route('menus.update', $menu->id) }}" 
           method="POST" enctype="multipart/form-data" class="space-y-4">
 
         @csrf
@@ -51,7 +51,7 @@
         <div class="flex gap-3">
             <button type="submit" class="px-4 py-2 bg-amber-700 text-white rounded">Simpan</button>
 
-            <a href="{{ route('admin.menus.index') }}" class="px-4 py-2 bg-gray-200 rounded">
+            <a href="{{ route('menus.index') }}" class="px-4 py-2 bg-gray-200 rounded">
                 Batal
             </a>
         </div>
