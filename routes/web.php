@@ -1,19 +1,15 @@
 <?php
 
+use App\Http\Controllers\Admin\AdminMenuController;
+// Public Controllers
+use App\Http\Controllers\ContactController;
+// Admin Controllers
+use App\Http\Controllers\Public\PublicMenuController;
 use Illuminate\Support\Facades\Route;
 
-// Public Controllers
-use App\Http\Controllers\Public\PublicMenuController;
-
-// Admin Controllers
-use App\Http\Controllers\Admin\AdminMenuController;
-use App\Http\Controllers\ContactController;
-
-
 Route::fallback(function () {
-    return "Maaf, alamat tidak ditemukan";
+    return 'Maaf, alamat tidak ditemukan';
 });
-
 
 Route::get('/', function () {
     return view('coffeeshop.home');
@@ -37,7 +33,6 @@ Route::post('/contact', [ContactController::class, 'store'])
 Route::get('/program', function () {
     return view('coffeeshop.program');
 });
-
 
 Route::prefix('admin')->group(function () {
 
