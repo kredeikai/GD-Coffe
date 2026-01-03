@@ -19,10 +19,11 @@
     <!-- Navbar -->
     <nav class="bg-amber-700 text-white">
         <ul class="flex justify-center gap-6 py-3">
-            <li><a href="/" class="hover:text-yellow-300 transition">Home</a></li>
-            <li><a href="/menu" class="hover:text-yellow-300 transition">Menu</a></li>
-            <li><a href="/about" class="hover:text-yellow-300 transition">Tentang Kami</a></li>
-            <li><a href="/program" class="hover:text-yellow-300 transition">Program</a></li>
+            <li><a href="/customer/home" class="hover:text-yellow-300 transition">Home</a></li>
+            <li><a href="/customer/menu" class="hover:text-yellow-300 transition">Menu</a></li>
+            <li><a href="/customer/order" class="hover:text-yellow-300 transition">My Order</a></li>
+            <li><a href="/customer/about" class="hover:text-yellow-300 transition">About Us</a></li>
+            <li><a href="/customer/contact" class="hover:text-yellow-300 transition">Contact</a></li>
         </ul>
     </nav>
 
