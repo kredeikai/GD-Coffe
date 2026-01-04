@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. Ambil source code dari repository
+    # 1. source code dari repository
     - name: Checkout code
       uses: actions/checkout@v4
 
@@ -27,7 +27,7 @@ jobs:
     - name: Install dependencies
       run: composer install --no-progress --no-suggest --prefer-dist
 
-    # 4. Siapkan file environment untuk CI
+    # 4. file environment untuk CI
     - name: Copy .env
       run: cp .env.example .env
 
@@ -41,10 +41,10 @@ jobs:
         mkdir -p database
         touch database/database.sqlite
 
-    # 7. Jalankan migration (opsional tapi aman)
+    # 7. Run migration
     - name: Run migrations
       run: php artisan migrate --force
 
-    # 8. Jalankan test Laravel
+    # 8. Run Laravel tests
     - name: Run tests
       run: php artisan test
