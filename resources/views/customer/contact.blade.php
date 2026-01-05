@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.app')
 
 @section('title', 'Kontak')
 
@@ -66,7 +66,7 @@
     <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-8 text-center mb-16">
         <h3 class="text-2xl font-semibold text-amber-800 mb-6">Kirim Pesan</h3>
 
-        <form action="{{ route('contact.store') }}" method="POST" class="space-y-4">
+        <form action="{{ route('customer.contact') }}" method="POST" class="space-y-4">
             @csrf
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
