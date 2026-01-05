@@ -12,7 +12,6 @@
 | Nama Lengkap | NIM | Tugas |
 |---------------|-----|--------|
 | Muhammad Ibrah Adzdzikra | 2310120010 | Business & Konsep Utama |
-| Muhammad Lutfi | 2310120011 | Desainer Konten & Media |
 | Muhammad Dzikri Khairrifo | 2310120025 | Developer / Frontend |
 
 ---
